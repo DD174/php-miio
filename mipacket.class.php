@@ -13,6 +13,9 @@
 *	Copyright (C) 2017 Agaphonov Dmitri aka skysilver [mailto:skysilver.da@gmail.com]
 */
 
+/**
+ * @deprecated use \skysilverLab\phpMiio\MiPacket::class
+ */
 class miPacket {
 	
 	private $magic = '2131';

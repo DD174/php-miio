@@ -1,0 +1,16 @@
+{
+    "name": "skysilver-lab/php-miio",
+    "type": "library",
+    "description": "miIO - проприетарный шифрованный сетевой протокол Xiaomi",
+    "require": {
+        "ext-sockets": "*",
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "skysilverLab\\phpMiio\\": "src/"
+        }
+    }
+}

@@ -16,12 +16,15 @@
 *	Copyright (C) 2017 Agaphonov Dmitri aka skysilver [mailto:skysilver.da@gmail.com]
 */
 
-require('mipacket.class.php');
+require_once('mipacket.class.php');
 
 const 	MIIO_PORT = '54321';
 
 const 	HELLO_MSG = '21310020ffffffffffffffffffffffffffffffffffffffffffffffffffffffff';
 
+/**
+ * @deprecated use \skysilverLab\phpMiio\MiIO::class
+ */
 class miIO {
 	
 	public 	$ip = '';
